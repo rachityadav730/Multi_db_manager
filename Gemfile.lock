@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    multi_db_manager (0.1.0)
+      arangodb
+      mongo
+      mysql2
+      pg
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    arangodb (1.0.4)
+    bson (5.0.1)
+    mongo (2.20.1)
+      bson (>= 4.14.1, < 6.0.0)
+    mysql2 (0.5.6)
+    pg (1.5.4)
+    rake (13.2.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  multi_db_manager!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.22
